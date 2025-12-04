@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Animal World – Начало</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            text-align: center;
+            padding: 20px;
+        }
+
+            .hero img {
+                width: 250px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin: 5px;
+            }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+            .categories img {
+                width: 110px;
+                height: 110px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+        
+       /* Основен стил за навигацията 
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+            nav ul li a {
+                display: block;
+                color: white;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    background-color: #555;
+                }
+
+         Стил за dropdown 
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            top: 100%;  
+            left: 0;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+         Показване на dropdown при hover 
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }*/
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Images/logo1.png" alt="Лого на Penguin Wings" class="logo">
+        <h1>Зоомагазин "Penguin Wings"</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+            <li class="dropdown">
+                <a href="#">Продукти</a>
+                <div class="dropdown-content">
+                    <a href="foods.html">Храни</a>
+                    <a href="toys.html">Играчки</a>
+                    <a href="accessories.html">Аксесоари</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Животни</a>
+                <div class="dropdown-content">
+                    <a href="dogs.html">Кучета</a>
+                    <a href="cats.html">Котки</a>
+                    <a href="fish.html">Риби</a>
+                    <a href="parrots.html">Папагали</a>
+                </div>
+            </li>
+            <li><a href="about.html">За нас</a></li>
+        </ul>
+    </nav>
+
+    <a class="back-to-top" href="#">НАЧАЛО ↑</a>
+    <div class="hero">
+        <h2>Добре дошли в Penguin Wings!</h2>
+        <p>
+            „От игривите котешки скокове до кучешките усмивки — в Penguin Wings намирате всичко, <br />което прави живота на любимците ви малко по-шумен,
+            по-мъркащ и много по-забавен.“
+        </p>
+        <img src="Images/photo1.jpg" alt="photo1">
+        <img src="Images/photo2.jpg" alt="photo2">
+        <img src="Images/photo3.jpg" alt="photo3">
+        <img src="Images/photo4.jpg" alt="photo4">
+    </div>
+    <div class="categories">
+        <div>
+            <img src="Images/photo5.jpg" alt="photo5">
+            <h3>Храни</h3>
+        </div>
+        <div>
+            <img src="Images/photo6.jpg" alt="photo6">
+            <h3>Играчки</h3>
+        </div>
+        <div>
+            <img src="Images/photo7.png" alt="photo7">
+            <h3>Аксесоари</h3>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Penguin Wings – Всички права запазени.</p>
+    </footer>
+</body>
+</html>
