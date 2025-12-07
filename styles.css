@@ -137,9 +137,11 @@ nav ul {
         color: #666;
         font-size: 14px;
     }
-footer {
-    background-color: #132e8a;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
+    /**/
+
+    footer {
+        background-color: #132e8a;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
