@@ -5,6 +5,74 @@
     <meta charset="utf-8" />
     <title>Animal World – За нас</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+    /*    .about-container {
+            width: 80%;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+
+        .about-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .info-table {
+            width: 100%;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+            .info-table th {
+                background: #00bbff;
+                color: white;
+                padding: 12px;
+                text-align: left;
+            }
+
+            .info-table td {
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .info-table tr:hover {
+                background: #eefaff;
+            }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+            .contact-form input,
+            .contact-form textarea {
+                padding: 10px;
+                border: 1px solid #bbb;
+                border-radius: 6px;
+                font-size: 16px;
+                width: 100%;
+                
+            }
+        .send-btn {
+            background: #00bbff;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+            .send-btn:hover {
+                background: #0288cc;
+            }*/
+    </style>
 </head>
 <body>
     <header>
@@ -14,6 +82,7 @@
     <nav>
         <ul>
             <li><a href="index.html">Начало</a></li>
+
             <li class="dropdown">
                 <a href="#">Продукти</a>
                 <div class="dropdown-content">
@@ -22,6 +91,7 @@
                     <a href="accessories.html">Аксесоари</a>
                 </div>
             </li>
+
             <li class="dropdown">
                 <a href="#">Животни</a>
                 <div class="dropdown-content">
@@ -31,30 +101,81 @@
                     <a href="parrots.html">Папагали</a>
                 </div>
             </li>
+
             <li><a href="about.html">За нас</a></li>
         </ul>
     </nav>
 
-    <section>
+    <section class="about-container">
         <h2>Кои сме ние?</h2>
+        <p class="about-text">
+            „Animal World“ е зоомагазин, създаден с любов към животните. Нашата мисия е
+            да предоставим качествени продукти, професионална грижа и полезна информация
+            на всички собственици и любители на животни. При нас ще откриете разнообразие
+            от храни, аксесоари, играчки и дори възможност за избор на домашен любимец.
+        </p>
+
+        <h3>Работно време</h3>
+        <table class="info-table">
+            <tr>
+                <th>Ден</th>
+                <th>От – До</th>
+            </tr>
+            <tr>
+                <td>Понеделник – Петък</td>
+                <td>09:00 – 19:00</td>
+            </tr>
+            <tr>
+                <td>Събота</td>
+                <td>10:00 – 17:00</td>
+            </tr>
+            <tr>
+                <td>Неделя</td>
+                <td>Почивен ден</td>
+            </tr>
+        </table>
+
+        <h3>Нашите услуги</h3>
+        <table class="info-table">
+            <tr>
+                <th>Услуга</th>
+                <th>Описание</th>
+                <th>Цена</th>
+            </tr>
+            <tr>
+                <td>Груминг</td>
+                <td>Подстригване, къпане и поддръжка за кучета и котки</td>
+                <td>от 25 лв.</td>
+            </tr>
+            <tr>
+                <td>Консултация</td>
+                <td>Помощ при избор на храна, порода или аксесоари</td>
+                <td>Безплатно</td>
+            </tr>
+            <tr>
+                <td>Транспорт</td>
+                <td>Доставка на животни и продукти до дома</td>
+                <td>от 5 лв.</td>
+            </tr>
+        </table>
 
         <h3>Свържете се с нас</h3>
-        <form>
-            <label>Име:</label>
-            <input type="text">
+        <form class="contact-form">
+            <label>Вашето име:</label>
+            <input type="text" placeholder="Въведете име">
 
-            <label>Съобщение:</label>
-            <textarea rows="4"></textarea>
+            <label>Вашето съобщение:</label>
+            <textarea rows="4" placeholder="Напишете вашето съобщение"></textarea>
 
-            <button type="submit">Изпрати</button>
+            <button type="submit" class="send-btn">Изпрати</button>
         </form>
-
     </section>
 
     <footer>
-        <p>© 2025 Animal World</p>
+        <p>&copy; 2025 Penguin Wings</p>
     </footer>
 
     <a class="back-to-top" href="#">НАЧАЛО ↑</a>
+
 </body>
 </html>
