@@ -21,6 +21,14 @@ header {
         float: left;
         border-radius: 20px;
     }
+.logo {
+    width: 120px;  
+    transition: transform 0.3s ease;
+}
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
 
 header h1 {
     margin: 0;
@@ -216,18 +224,22 @@ nav ul {
     }
 
 /**/
-.hero {
+.animals {
     text-align: center;
     padding: 20px;
 }
 
-    .hero img {
+    .animals img {
         width: 250px;
         height: 200px;
         object-fit: cover;
         border-radius: 10px;
         margin: 5px;
     }
+        .animals img:hover {
+            box-shadow: 0 0 20px #00bbff;
+        }
+
 
 .categories {
     display: flex;
@@ -242,6 +254,10 @@ nav ul {
         object-fit: cover;
         border-radius: 50%;
     }
+
+.categories img:hover {
+    box-shadow: 0 0 20px #00bbff;
+}
 
 .contact-container {
     width: 80%;
