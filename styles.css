@@ -141,7 +141,6 @@ nav ul {
         color: #666;
         font-size: 14px;
     }
-    /**/
 .about-container {
     width: 80%;
     margin: 30px auto;
@@ -187,6 +186,8 @@ nav ul {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    display: inline-block;
+    margin-top: 12px;
 }
 
     .btn-contact:hover {
@@ -223,7 +224,6 @@ nav ul {
         background: #0288cc;
     }
 
-/**/
 .animals {
     text-align: center;
     padding: 20px;
